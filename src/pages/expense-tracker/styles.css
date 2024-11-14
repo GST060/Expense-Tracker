@@ -1,0 +1,99 @@
+
+.expense-tracker {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #F1FAEE; 
+  background-color: #1D3557; 
+  padding: 20px 0;
+}
+
+
+.expense-tracker h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #F1FAEE; 
+  margin-right: 20px;
+}
+
+/* Button */
+.expense-tracker button {
+  margin-left: 15px;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: #E63946; 
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.expense-tracker button:hover {
+  background-color: #D43F3A; 
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 220px;
+}
+
+
+.profile-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover; 
+  border: 5px solid #F1FAEE; 
+}
+
+
+.sign-out-button {
+  border: none;
+  margin-top: 60px;
+  width: 180px;
+  background: #FF5A5F; 
+  background-image: linear-gradient(to bottom, #FF5A5F, #E63946);
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 25px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.sign-out-button:hover {
+  background: #FF6B81; 
+  background-image: linear-gradient(to bottom, #FF6B81, #FF5A5F);
+  cursor: pointer;
+}
+
+.transactions {
+  margin-left: 450px;
+  margin-top: 30px;
+  padding-left: 15px;
+  width: 650px;
+  height: 420px;
+  overflow: auto;
+  border: 3px solid #F1FAEE; 
+  border-radius: 8px;
+  background-color: #A8DADC; 
+}
+
+.transactions::-webkit-scrollbar {
+  width: 8px;
+}
+
+.transactions::-webkit-scrollbar-thumb {
+  background-color: #457B9D; 
+  border-radius: 4px;
+}
+
+.transactions::-webkit-scrollbar-track {
+  background-color: #F1FAEE;
+}
